@@ -38,6 +38,7 @@ chromium-browser  --noerrdialogs --disable-infobars --kiosk http://ha-main.local
 - reduce-security-for-testing
 - enable-features=OverlayScrollbar
 - touch-events
+- touch-events=enabled
 
 
 
