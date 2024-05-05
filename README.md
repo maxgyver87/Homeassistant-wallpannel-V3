@@ -20,7 +20,27 @@ xset s noblank
 xset s off
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
-chromium-browser  --noerrdialogs --disable-infobars --kiosk http://ha-main.local:8123/kiosk-tablet/home?BrowserID=Kiosk
+chromium-browser  --noerrdialogs --disable-infobars --kiosk http://ha-main.local:8123/kiosk-tablet/home
+
+#Possible Flags
+- kiosk
+- noerrdialogs
+- disable-infobars
+- start-fullscreen
+- start-maximized
+- disable-default-apps
+- disable-single-click-autofill
+- disable-translate-new-ux
+- disable-translate
+- disable-cache
+- disk-cache-dir=/dev/null
+- disk-cache-size=1
+- reduce-security-for-testing
+- enable-features=OverlayScrollbar
+- touch-events
+
+
+
 # refresh every 0.5 Hours
 while true; do
    xdotool keydown ctrl+r; xdotool keyup ctrl+r;
