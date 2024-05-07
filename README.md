@@ -116,3 +116,81 @@ sudo nano /boot/config.txt
 hdmi_group=2
 hdmi_mode=82
 ```
+##[Control Display via MQTT](https://blog.cavelab.dev/2021/10/control-rpi-hdmi-with-mqtt)
+
+
+
+
+
+## UI
+## UI Inspiration
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/m34MIuhRK1g/0.jpg)](https://youtu.be/m34MIuhRK1g "Room Overview Lovelace Dashboard")
+[Will Surridge Tec](https://www.youtube.com/watch?v=m34MIuhRK1g)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+![qiz-li](https://github.com/qiz-li/lovelace-soft-ui/blob/main/images/screenshot.png)
+[qiz-li](https://github.com/qiz-li/lovelace-soft-ui)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+![danieljarhult](https://community-assets.home-assistant.io/original/3X/2/4/242e1d5f69f5484f36c48def540b4f52c27e336e.jpeg)
+[danieljarhult](https://community.home-assistant.io/t/neon-lovelace-ui-and-theme-for-tablets/307230)
+[Neon Icons](https://www.flaticon.com/authors/kiranshastry/gradient/4)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+![matt8707](https://raw.githubusercontent.com/matt8707/hass-config/master/www/img/screenshot.png)
+[matt8707](https://github.com/matt8707/hass-config)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+![Tobiasn2005](https://raw.githubusercontent.com/Tobiasn2005/Home-Assistant/main/www/ui/floorplan1.gif)
+[Tobiasn2005](https://github.com/Tobiasn2005/Home-Assistant)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+![HA_Scott](https://i.redd.it/nr14d6pk4im41.jpg)
+[HA_Scott](https://www.reddit.com/user/HA_Scott/)
+<br/>
+<br/>
+- Concepualise the UI helpful - [micro](https://miro.com)
+![Brainstorming](/Brainstorming.png)
+- [Figma](https://www.figma.com) help [video](https://www.youtube.com/watch?v=n8hbHBgsiEI&t=428s)
+
+
+
+
+
+
+### Custom cards needed:
+- [custom layout card](https://www.github.com/thomasloven/lovelace-layout-card) help with [layoutit-grid](https://github.com/Leniolabs/layoutit-grid)
+- [markdown card](https://www.home-assistant.io/lovelace/markdown/) for side bar with [markdown help](https://guides.github.com/features/mastering-markdown/#examples)
+- [custom kiosk mode](https://github.com/maykar/kiosk-mode)
+- [custom swipe card](https://github.com/bramkragten/swipe-card)
+- [hass browser mod](https://github.com/thomasloven/hass-browser_mod)
+- [lovelace card mod](https://github.com/thomasloven/lovelace-card-mod) with [CSS help](https://www.w3schools.com/css/css_font_size.asp)
+- [clock](https://github.com/shbatm/mm2-clock-card)
+- [Sidebar card](https://github.com/DBuit/sidebar-card)
+- [custom button card](https://github.com/custom-cards/button-card)
+- [calender](https://github.com/marksie1988/atomic-calendar-revive)
+- [Homekit panel card](https://github.com/DBuit/Homekit-panel-card)
+- [simple thermostat](https://github.com/nervetattoo/simple-thermostat)
+- [serch card](https://github.com/postlund/search-card)
+- [banner card](https://github.com/nervetattoo/banner-card)
+- [stack in card](https://github.com/custom-cards/stack-in-card)
