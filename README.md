@@ -35,7 +35,7 @@ Yes
 ```
 sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox chromium-browser -y
 ```
-#Define autostart
+# Define autostart
 replace: url with yours
 ```
 sudo nano /etc/xdg/openbox/autostart
@@ -48,21 +48,21 @@ sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Loc
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
 /usr/bin/chromium-browser --kiosk --enable-features=OverlayScrollbar --pull-to-refresh=2  --disable-cache --disk-cache-dir=/dev/null --disk-cache-size=1 --noerrdialogs http://ha-main.local:8123/kiosk-tablet/home
 ```
-##Possible Flags
-#Required
+## Possible Flags
+# Required
 - kiosk
 - enable-features=OverlayScrollbar
 - noerrdialogs
-#Optional
+# Optional
 - disable-cache
 - disk-cache-dir=/dev/null
 - disk-cache-size=1
-#Nice to have
+# Nice to have
 - pull-to-refresh=2
 
 
 
-#Create Bash profile to define display and hide cursor
+# Create Bash profile to define display and hide cursor
 ```
 touch ~/.bash_profile
 ```
