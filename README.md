@@ -48,7 +48,9 @@ sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Loc
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
 /usr/bin/chromium-browser --kiosk --enable-features=OverlayScrollbar --pull-to-refresh=2  --disable-cache --disk-cache-dir=/dev/null --disk-cache-size=1 --noerrdialogs http://ha-main.local:8123/kiosk-tablet/home
 ```
-## Possible Flags
+## Possible Chromium Flags can be viewed at
+- chrome://flags
+- https://peter.sh/experiments/chromium-command-line-switches/
 # Required
 - kiosk
 - enable-features=OverlayScrollbar
