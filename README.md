@@ -89,7 +89,7 @@ Section "InputClass"
         Identifier "libinput touchpad catchall"
         .......
 ```
-Select rotation
+Select rotation<br/>
 0 degrees of rotation parameters: ```Option "CalibrationMatrix" "1 0 0 0 1 0 0 0 1"```<br/>
 90 degrees of rotation parameters: ```Option "CalibrationMatrix" "0 1 0 0-1 1 0 0 1"```<br/>
 180 degrees of rotation parameters: ```Option "CalibrationMatrix" "1 0 0-1 1 0 0 1"```<br/>
@@ -104,7 +104,6 @@ Section "InputClass"
         Driver "libinput"
 EndSection
 ```
-# Rotation Of the Desktop
 # Set Screen resolution in this case 1080x1920
 ```
 sudo nano /boot/config.txt
