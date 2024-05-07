@@ -104,7 +104,9 @@ Section "InputClass"
         Driver "libinput"
 EndSection
 ```
-# Set Screen resolution in this case 1080x1920
+# Set Screen resolution in this case (1080p) 60 Hz
+Find your hdmi group and mode [Raspberry Pi  User Guide - 2016 - Upton - HDMI Display Modes.pdf](https://github.com/maxgyver87/Homeassistant-wallpannel-V3/files/15239152/Raspberry.Pi.User.Guide.-.2016.-.Upton.-.HDMI.Display.Modes.pdf)
+
 ```
 sudo nano /boot/config.txt
 ```
