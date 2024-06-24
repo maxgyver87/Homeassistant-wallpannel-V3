@@ -46,7 +46,7 @@ xset s noblank
 xset s off
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
-/usr/bin/chromium-browser --kiosk --enable-features=OverlayScrollbar --pull-to-refresh=2  --disable-cache --disk-cache-dir=/dev/null --disk-cache-size=1 --noerrdialogs http://ha-main.local:8123/kiosk-tablet/home
+/usr/bin/chromium-browser --kiosk --enable-features=OverlayScrollbar --pull-to-refresh=2 --disable-pinch --disk-cache-dir=/dev/null --disk-cache-size=1 --noerrdialogs http://ha-main.local:8123/kiosk-tablet/home
 ```
 ## Possible Chromium Flags can be viewed at
 - chrome://flags
@@ -56,6 +56,7 @@ sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/
 - enable-features=OverlayScrollbar
 - noerrdialogs
 # Optional
+- disable-pinch
 - disable-cache
 - disk-cache-dir=/dev/null
 - disk-cache-size=1
